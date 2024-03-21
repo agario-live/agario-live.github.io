@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Agario Live Unblocked School Private Server Game. Many Student's Are Here. Where are you?">
+	<title>Agario live Github Version Unblocked School Game</title>
+    <meta name="google" content="notranslate">
+	<meta name="content-language" content="en-US" />
+	<meta name="language" content="en-US" />
+	<meta name="robots" content="all" />
+    <link rel="stylesheet" href="style.css?11">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="agario.fans">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Agario.fans">
+	<meta name="twitter:creator" content="agario.fans">
+	<meta name="twitter:title" content="Agario">
+	<meta name="twitter:description" content="Agario">
+	<meta name="twitter:image:src" content="/imgs/logo.webp">
+	<meta property="og:type" content="website" />
+	<!--<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/22895828600/336x280', [336, 280], 'div-gpt-ad-1680102108308-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/22895828600/336x280-1', [336, 280], 'div-gpt-ad-1680102217779-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>-->
+<script>
+var aiptag = aiptag || {};
+aiptag.cmd = aiptag.cmd || [];
+aiptag.cmd.display = aiptag.cmd.display || [];
+aiptag.cmd.player = aiptag.cmd.player || [];
+aiptag.gdprShowConsentTool = true;
+aiptag.gdprShowConsentToolButton = true;
+
+	//CMP tool settings
+var plays = 0;
+function playnow() {
+    plays++;
+   if (plays == 1) {
+       if (typeof adplayer != "undefined") {
+			adplayer.startPreRoll();
+		}
+       plays = -3;
+    } else {
+        //setNick(document.getElementById('nick').value, document.getElementById('skin').value);
+        return false;
+    }
+}
+  
+function initAipPreroll() {
+    if (typeof aipPlayer != "undefined") {
+        adplayer = new aipPlayer({
+            AD_WIDTH: 960,
+            AD_HEIGHT: 540,
+            AD_FULLSCREEN: false,
+            AD_CENTERPLAYER: true,
+            PREROLL_ELEM: document.getElementById('preroll'),
+            AIP_COMPLETE: function() {
+            //    setNick(document.getElementById('nick').value, document.getElementById('skin').value);
+            //    return false;
+            },
+            AIP_REMOVE: function() {}
+        });
+    } else {
+      	
+       // setNick(document.getElementById('nick').value, document.getElementById('skin').value);
+        //return false;
+    }
+}
+
+function getScript(src, callback) {
+    var headElm = document.head || document.getElementsByTagName('head')[0];
+    var script = document.createElement("script");
+    var once = true;
+    script.async = "async";
+    script.type = "text/javascript";
+    script.charset = "UTF-8";
+    script.src = src;
+    script.onload = script.onreadystatechange = function() {
+        if (once && (!script.readyState || /loaded|complete/.test(script.readyState))) {
+            once = false;
+            callback();
+            script.onload = script.onreadystatechange = null;
+        }
+    };
+    headElm.appendChild(script);
+}
+getScript('//api.adinplay.com/libs/aiptag/pub/AGV/io-games.live/tag.min.js', initAipPreroll);
+	</script>	
+</head>
+<body>
+<div id="nn"></div>
+    <div id="preroll"></div>
+    <section id="main-login-section" class="main-login-section">
+	  <div id="helloDialog">
+        <div class="main-login-area">
+            <div class="main-login-area-left">
+                <div class="main-login-area-left-tab-area">
+                    <button id="mlaltb-settings" onclick="mlaltbsettings()" class="main-login-area-left-tab-button active">Settings</button>
+                    <button id="mlaltb-shortcuts" onclick="mlaltbshortcuts()" class="main-login-area-left-tab-button ">Shortcuts</button>
+                </div>
+                <div class="main-login-area-left-panels-area">
+                    <div id="mlaltb-settings-panel" class="main-login-area-left-panel-box active">
+                        <div class="mlaltb-check-row">
+                            <label for="noSkin"><input type="checkbox" id="noSkin" onchange="setHideSkins();"> Hide Skins</label>
+                        </div>
+                        <div class="mlaltb-check-row">
+                            <label for="noNames"><input type="checkbox" id="noNames" onchange="setHideNames();"> Hide Names</label>
+                        </div>
+                        <div class="mlaltb-check-row">
+                            <label for="darkTheme"><input type="checkbox" id="darkTheme" onchange="setDarkTheme();"> Dark Theme</label>
+                        </div>
+                        <div class="mlaltb-check-row">
+                            <label for="showScore"><input type="checkbox" id="showScore" onchange="setShowScore();"> Show Mass</label>
+                        </div>
+                        <div class="mlaltb-check-row">
+                            <label for="getZoom"><input type="checkbox" id="getZoom" onchange="setZoom();">Disable Zoom</label>
+                        </div>
+						<div class="mlaltb-check-row">
+							<label for="noColor"><input type="checkbox" id="noColor" onchange="setNoColor();"> No Colors</label>
+						</div>
+						<div class="mlaltb-check-row">
+							<label for="hideChat"><input type="checkbox" id="hideChat" onchange="setHideChat();"> Hide Chat</label>
+						</div>
+						<div class="mlaltb-check-row">
+							<label for="smoothRender"><input type="checkbox" id="smoothRender" onchange="setSmooth();"> Smooth Render</label>
+						</div>
+						<div class="mlaltb-check-row">
+						<label for="transparentRender"><input type="checkbox" id="transparentRender" onchange="setTransparent();"> Transparent</label>
+						</div>
+                      <!--  <div onclick="allsettingsmodalopen()" class="mlaltb-check-row-fortext"><p class="mlaltb-check-row-text">All Settings</p></div>-->
+					  <div style="font:12px;">		   
+						<a href="/privacy.html">Privacy Policy</a>
+						<a href="/terms.html">Terms</a>
+						<a href="https://play.agario.fans">GAMES</a>
+						contact: info@agario.fans
+						</div>
+						
+                    </div>
+                    <div id="mlaltb-shortcuts-panel" class="main-login-area-left-panel-box">
+                        <div class="mlaltb-shortcuts-area">
+                            <div class="mlaltb-shortcut-box">W</div>
+                            <div class="mlaltb-shortcut-desc-box">Feed</div>
+                        </div>
+                        <div class="mlaltb-shortcuts-area">
+                            <div class="mlaltb-shortcut-box">E</div>
+                            <div class="mlaltb-shortcut-desc-box">Feed Macro</div>
+                        </div>
+                        <div class="mlaltb-shortcuts-area">
+                            <div class="mlaltb-shortcut-box">SPACE</div>
+                            <div class="mlaltb-shortcut-desc-box">Split</div>
+                        </div>
+                        <div class="mlaltb-shortcuts-area">
+                            <div class="mlaltb-shortcut-box">CTRL</div>
+                            <div class="mlaltb-shortcut-desc-box">Split Macro</div>
+                        </div>
+                        <div class="mlaltb-shortcuts-area">
+                            <div class="mlaltb-shortcut-box">F</div>
+                            <div class="mlaltb-shortcut-desc-box">Pause / Unpause</div>
+                        </div>
+                        <div class="mlaltb-shortcuts-area">
+                            <div class="mlaltb-shortcut-box">Enter</div>
+                            <div class="mlaltb-shortcut-desc-box">Chat</div>
+                        </div>
+                        <div class="mlaltb-shortcuts-area">
+                            <div class="mlaltb-shortcut-box">ESC</div>
+                            <div class="mlaltb-shortcut-desc-box">Menu</div>
+                        </div>
+                        <div class="mlaltb-shortcuts-area">
+                            <div class="mlaltb-shortcut-box">C</div>
+                            <div class="mlaltb-shortcut-desc-box">Share Location</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-login-area-center">
+                <a href="/"><img width="418" height="160" src="./imgs/logo.webp?=1" alt="agario" class="main-login-area-center-logo"></a>
+                <div class="main-login-area-center-play-area">
+                    <div class="mlacpa-name-box"><input placeholder="nick" type="text" autofocus id="nick" maxlength="20" value="agar.live"><button onclick="window.open('fancytextnick.html', '_blank')">Fancy Nick</button></div>
+                    <select class="mlacpa-server-select" id="gamemode" onchange="setserver();">
+                        <option maxlength="15" value="ffa1.agariodns.cyou" data-itr="FFA1">FFA 1 - EU</option>
+						<option maxlength="15" value="ffa2.agariodns.cyou" data-itr="FFA2">FFA 2 - USA</option>
+						<option maxlength="15" value="ffa3.agariodns.cyou" data-itr="FFA3">FFA 3 - EU</option>
+						<option maxlength="15" value="ffa44.agariodns.cyou" data-itr="FFA4">FFA 4 - EU</option>
+						<option maxlength="15" value="pop1.agariodns.cyou" data-itr="FFA71">VIRUS BOMB 1 - EU</option>
+						<option maxlength="15" value="pop2.agariodns.cyou" data-itr="FFA72">VIRUS BOMB 2 - EU</option>
+						<option maxlength="15" value="ffa4.agariodns.cyou" data-itr="FFA72">CRAZY BOMB 3 - USA</option>
+						<option maxlength="15" value="ffa8.agariodns.cyou" data-itr="FFA8">FFA 8 - USA</option>
+						<option maxlength="15" value="ffa9.agariodns.cyou" data-itr="FFA9">FFA 9 - USA</option>
+						<option maxlength="15" value="ffa10.agariodns.cyou" data-itr="FFA10">FFA 10 - USA</option>
+						<option maxlength="15" value="rainbow.agariodns.cyou" data-itr="FFA7">RAINBOW - EU</option>
+						<option maxlength="16" value="instant.agariodns.cyou" data-itr="merge">INSTANT MERGE - EU</option>
+						<option maxlength="15" value="team.agariodns.cyou" data-itr="FFAT">TEAMS - EU </option>
+						<option maxlength="15" value="black.agariodns.cyou" data-itr="FFAB">BLACKHOLE - EU</option>
+                    </select>
+					<input type="hidden" id="txtSkin" class="form-control" class="playerSkinInput" autocomplete="off" maxlength="15">
+                    <button class="mlacpa-play-button" onclick="playGame(); playnow(); typeof googletag !== 'undefined' &&googletag.pubads().refresh(); return false;">PLAY</button>
+                    <button class="mlacpa-spectate-button" onclick="spectate(); return false;">Spectate</button>
+					<div class="form-group" style="witdh:336px;height:300px">
+					<hr>
+					<center>
+					<!-- /22895828600/336x280-1 -->
+<!--<div id='div-gpt-ad-1680102217779-0' style='min-width: 336px; min-height: 280px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1680102217779-0'); });
+  </script>
+</div>-->
+<div id='io-games-live_300x250_2'>
+		<script type='text/javascript'>
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('io-games-live_300x250_2'); });
+		</script>
+	</div>
+</center>
+	
+</div>
+               
+                </div>
+            </div>
+            <div class="main-login-area-right">
+                <div class="main-login-area-right-tab-area">
+                    <button id="mlartb-skin" onclick="mlartbskin()" class="main-login-area-right-tab-button active">Skin</button>
+                    <button id="mlartb-about" onclick="mlartbabout()" class="main-login-area-right-tab-button ">About</button>
+                </div>
+                <div class="main-login-area-right-panels-area">
+                    <div id="mlartb-skin-panel" class="main-login-area-right-panel-box active">
+                        <div class="mlartb-skin-area">
+                            <div class="mlartb-skin-box"><img id="defaultSkin" src="./skins/noskin.png" alt=""></div>
+                        </div>
+                        <button onclick="selectskinmodalopen()" class="mlartb-skin-select-button">Select Skin</button>
+                       <hr>
+
+						<div style="overflow-y:scroll;height:440px">
+						<h1>WHAT IS AGAR.IO UNBLOCKED GAME</h1>
+					Agar.io is a popular multiplayer online game where players control a cell in a petri dish-like environment, consuming smaller cells and avoiding larger ones to grow as big as possible. Here is a comprehensive guide on how to play Agar.io and some tricks to help you succeed.
+
+<h2>Gameplay</h2>
+
+When you start playing Agar.io, you will control a small cell in a large environment filled with other players' cells. Your objective is to consume smaller cells to grow bigger, while avoiding being consumed by larger cells.
+
+To move your cell, use your mouse cursor to direct it. If you want to split your cell into two smaller ones, press the space bar. This can be useful if you want to move more quickly or if you want to consume smaller cells.
+
+To consume other cells, simply touch them with your own cell. When you consume a smaller cell, your cell will grow in size. However, if you touch a larger cell, you will be consumed.
+
+<h2>Tricks</h2>
+
+    Stay near the edges
+
+Staying near the edges of the environment can be a good strategy, as it reduces the number of directions that larger cells can approach you from. Additionally, larger cells are more likely to be in the center of the environment, so by staying near the edges, you can avoid them.
+
+  <h2>  Use the virus cells</h2>
+
+Virus cells are green cells that can be found throughout the environment. If a larger cell touches a virus cell, it will split into smaller cells. You can use this to your advantage by leading larger cells towards the virus cells, causing them to split and potentially making them easier to consume.
+
+  <h2>  Use other cells as shields</h2>
+
+If you are being pursued by a larger cell, you can use smaller cells as shields. Simply move behind the smaller cells, and the larger cell will have to consume them first before it can get to you.
+
+    Target cells that are splitting
+
+When cells split, they become vulnerable to being consumed. If you see a cell that is in the process of splitting, try to consume it before the split is complete.
+
+    Be aware of your surroundings
+
+It is important to be aware of your surroundings at all times, as larger cells can approach from any direction. Keep an eye on the minimap in the bottom-left corner of the screen to see where other cells are.
+
+  <h2>  Don't be too aggressive</h2>
+
+While it can be tempting to consume as many cells as possible, being too aggressive can put you at risk of being consumed by larger cells. Instead, focus on consuming smaller cells and avoiding larger ones.
+
+    <h2>Use the leaderboard to your advantage</h2>
+
+The leaderboard in the top-right corner of the screen shows the names and sizes of the largest cells in the game. Use this information to avoid larger cells and to target cells that are smaller than you.
+
+    Use split-feeding
+
+Split-feeding is a technique where you split your cell into two smaller cells, and then consume them both. This can be useful if you need to move quickly or if you need to consume smaller cells that are out of reach.
+
+    Be patient
+
+Agar.io is a game of patience, and it can take some time to grow to a large size. Don't be too aggressive or take unnecessary risks, as this can put you at risk of being consumed by larger cells.
+
+   <h2> Play with friends </h2>
+
+Playing with friends can be a fun way to enjoy Agar.io, as you can work together to consume other cells and avoid being consumed. Additionally, playing with friends can help you coordinate strategies and communicate more effectively.
+
+Conclusion
+
+Agar.io is a fun and addictive game that requires skill and strategy to succeed. By following these tips and tricks, you can improve your chances of growing to a large size and avoiding being consumed by larger cells. 
+Remember to be patient and aware of your surroundings, and don't be too aggressive. With practice and persistence, you can become a skilled player and dominate the game.
+
+In addition to these general tips, there are also different game modes that you can try out in Agar.io. These include:
+
+    FFA (Free-for-All): In this mode, you compete against all other players in the game.
+
+    Teams: In this mode, you can form a team with other players and work together to consume other cells.
+
+    Experimental: This mode includes different features and game mechanics that are not available in the standard game modes.
+
+    Party: This mode allows you to play with friends in a private game.
+
+Overall, Agar.io is a fun and challenging game that can provide hours of entertainment. With these tips and tricks, you can improve your gameplay and become a skilled player. Remember to stay patient, be aware of your surroundings, and most importantly, have fun!
+
+						</div>
+                    </div>
+                    <div id="mlartb-about-panel" class="main-login-area-right-panel-box ">
+                        <div class="malrtb-about-panel-header">
+                            <p class="malrtb-about-panel-header-text"><b>agario</b></p>
+                        </div>
+                        <div class="malrtb-about-panel-text-area">
+                            <p class="malrtb-about-panel-text-area-text">
+						Agario unblocked  is an online multiplayer game where you control a "cell" and become the greatest by eating other players' cells and the food. Making your own methods for playing/finding lasting success in Agar.io will extraordinarily help you during the interactivity. Fostering your own strategies will likewise allow you a higher opportunity of separating the competitor list or getting onto it!
+On the other hand, you can look into "Agario" or "Agario unblocked" on web indexes like Google, Yippee!, or Bing.
+    On the off chance that you are hoping to play the portable variant of Agar.io went against to the site rendition, you might download the application from the application store (Google Play, Apple's "Application Store", And so forth) situated on your cell phone.
+Pick you username in the clear field. You can make a custom name or go with one related with existing skins. Composing in certain usernames will give you a specific cell "foundation" or "skin". Skins significantly affect your interactivity as they are rigorously for corrective purposes. On the off chance that you pick a custom name, you will not have the option to get a skin except if you've signed in and gotten a "Superior Skin"
+						This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+	</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	  </div>
+    </section>
+
+	<div id="infoOverlays" style="visibility:hidden;">
+      <div id="infoDialog">
+        <div class="match-result">Match Result</div>
+        <div class="grid-container">
+          <div class="grid-item">
+            <span id="stats_hightesmass" style="font-size: 10px;">0</span>
+            <br>Food eaten
+          </div>
+          <div class="grid-item">
+            <span id="stats_hightesmass" style="font-size: 10px;">0</span>
+            <br>highest mass
+          </div>
+          <div class="grid-item"></div>
+          <div class="grid-item">
+            <span id="stats_timealive" style="font-size: 10px;">00:00</span>
+            <br>time alive
+          </div>
+          <div class="grid-item">
+            <span id="stats_leaderboardtime" style="font-size: 10px;">0:00</span>
+            <br>leaderboard time
+          </div>
+          <div class="grid-item"></div>
+          <div class="grid-item">
+            <span id="stats_cellseaten" style="font-size: 10px;">0</span>
+            <br>cells eaten
+          </div>
+          <div class="grid-item">
+            <span id="stats_topposition" style="font-size: 10px;">:(</span>
+            <br>top position
+          </div>
+          <div class="grid-item"></div>
+        </div>
+        <button id="infoDialog_continueBtn" onclick="document.getElementById('infoOverlays').hide(1.0);document.getElementById('main-login-section').show(0.2);return false;">Continue</button>
+        <div class="both"></div>
+		<div  style="witdh:336px;height:310px">
+        <center>::.ADS.:: <p></p>
+         <!-- /22895828600/336x280 -->
+<!--<div id='div-gpt-ad-1680102108308-0' style='min-width: 336px; min-height: 280px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1680102108308-0'); });
+  </script>
+</div>-->
+<div id='io-games-live_300x250'>
+		<script type='text/javascript'>
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('io-games-live_300x250'); });
+		</script>
+	</div>
+        </center>
+		</div>
+      </div>
+    </div>
+    <div id="selectskin-modal" class="selectskin-modal">
+        <div class="selectskin-modal-inside">
+            <div class="modal-inside-x-area">
+                <img onclick="selectskinmodalclose()" src="./imgs/close.webp" alt="" class="modal-inside-x-img">
+            </div>
+            <div id="idSkinList" class="selectskin-modal-inside-skins-area">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function mlaltbsettings() {
+        var element = document.getElementById("mlaltb-settings");
+        element.classList.add("active");
+        var element = document.getElementById("mlaltb-shortcuts");
+        element.classList.remove("active");
+        var element = document.getElementById("mlaltb-settings-panel");
+        element.classList.add("active");
+        var element = document.getElementById("mlaltb-shortcuts-panel");
+        element.classList.remove("active");
+        };
+
+        function mlaltbshortcuts() {
+        var element = document.getElementById("mlaltb-settings");
+        element.classList.remove("active");
+        var element = document.getElementById("mlaltb-shortcuts");
+        element.classList.add("active");
+        var element = document.getElementById("mlaltb-settings-panel");
+        element.classList.remove("active");
+        var element = document.getElementById("mlaltb-shortcuts-panel");
+        element.classList.add("active");
+        };
+
+        function mlartbskin() {
+        var element = document.getElementById("mlartb-skin");
+        element.classList.add("active");
+        var element = document.getElementById("mlartb-about");
+        element.classList.remove("active");
+        var element = document.getElementById("mlartb-skin-panel");
+        element.classList.add("active");
+        var element = document.getElementById("mlartb-about-panel");
+        element.classList.remove("active");
+        };
+
+        function mlartbabout() {
+        var element = document.getElementById("mlartb-skin");
+        element.classList.remove("active");
+        var element = document.getElementById("mlartb-about");
+        element.classList.add("active");
+        var element = document.getElementById("mlartb-skin-panel");
+        element.classList.remove("active");
+        var element = document.getElementById("mlartb-about-panel");
+        element.classList.add("active");
+        };
+/*
+        function allsettingsmodalopen() {
+        var element = document.getElementById("allsettings-modal");
+        element.classList.add("active");
+        };
+
+        function allsettingsmodalclose() {
+        var element = document.getElementById("allsettings-modal");
+        element.classList.remove("active");
+        };
+*/
+        function selectskinmodalopen() {
+		selectSkinPage();
+        var element = document.getElementById("selectskin-modal");
+        element.classList.add("active");
+        };
+
+        function selectskinmodalclose() {
+        var element = document.getElementById("selectskin-modal");
+        element.classList.remove("active");
+        };
+    </script>
+	<script type="text/javascript" src="https://www.agariodns.cyou/game3.js"></script>
+	<canvas id="canvas" width="894" height="662"></canvas>
+	<label style="cursor:pointer;	font-size:17px;	position: absolute;	color:black;	background-color: #FFCC99;	padding: 5px 10px;	z-index: 1;	bottom: 10px;	left: 320px;	user-select: none;	-webkit-user-select: none;	-khtml-user-select: none;	-moz-user-select: none;	-ms-user-select: none;	-webkit-touch-callout: none;" onclick="clearChat();">Clear Chat</label>
+    <label style="cursor:pointer;	font-size:17px;	position: absolute;	color:black;	background-color: #FFCC99;	padding: 5px 10px;	z-index: 1;	bottom: 10px;	left: 430px;	user-select: none;	-webkit-user-select: none;	-khtml-user-select: none;	-moz-user-select: none;	-ms-user-select: none;	-webkit-touch-callout: none;" onclick="shareLocation();">Share Location</label>
+    <input type="text" id="chat_textbox" maxlength="70" placeholder="Press Enter to chat!" />
+	<div style="font-family:'Ubuntu'">&nbsp;</div>
+	<script>
+function getGameMode(){
+    const servers=[
+            "ffa1.agariodns.cyou",
+			"ffa2.agariodns.cyou"
+                    
+        ];
+    const gm = localStorage.getItem("gamemode") || servers[Math.floor(Math.random()*servers.length)];
+    const options = document.querySelector("#gamemode").querySelectorAll("option");
+    options.forEach(option => option.value == gm ? option.setAttribute("selected", true) : "");
+   // setGameModeWithLocalStorage(gm);
+}
+getGameMode();</script>
+<style>
+#kpxqjSHNRJVZ {
+	display: none;
+	width:430px !important;
+	height:400px !important;
+	font-size:30px;
+	position: absolute;
+	color:black;
+	background-color: #9d5c00;
+	padding: 5px 10px;
+	z-index: 1;
+	bottom: 10px;
+	left: 10px;
+}
+</style>
+
+<div id="kpxqjSHNRJVZ">
+Chat is hidden for adblock users on our website. You can still see the chat by disabling the Adblock plugin.</br>
+Disable Adblock Then You Can Play Game
+</div>
+<script src="adex.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+if(!document.getElementById('hXjAMPCBgqHb')){
+  document.getElementById('kpxqjSHNRJVZ').style.display='block';
+}
+
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RFZQYMJW99"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RFZQYMJW99');
+</script>
+
+</body>
+</html>
